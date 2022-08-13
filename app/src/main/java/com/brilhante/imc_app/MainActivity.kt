@@ -1,13 +1,9 @@
 package com.brilhante.imc_app
 
+import android.content.Intent
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat.startActivity
-import androidx.core.widget.doAfterTextChanged
-import androidx.core.widget.doOnTextChanged
 import com.brilhante.imc_app.databinding.ActivityMainBinding
-import android.content.Intent as Intent
 
 class MainActivity : AppCompatActivity() {
 

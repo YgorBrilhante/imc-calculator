@@ -2,7 +2,6 @@ package com.brilhante.imc_app
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.widget.doOnTextChanged
 import com.brilhante.imc_app.databinding.ActivityResultBinding
 
 
