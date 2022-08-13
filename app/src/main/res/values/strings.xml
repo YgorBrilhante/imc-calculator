@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IMC Calculator</string>
+    <string name="title_txt">IMC</string>
+    <string name="calcular_button">Calcular</string>
+    <string name="altura_hint">Altura (ex: 1.78 m)</string>
+    <string name="peso_hint">Peso (ex: 65.8 Kg)</string>
+    <string name="result_txt">Resultado</string>
+    <string name="button_back">Back Button</string>
+    <string name="imc_value_text">Valor IMC</string>
+    <string name="imc_class_txt">classificação imc</string>
+</resources>
