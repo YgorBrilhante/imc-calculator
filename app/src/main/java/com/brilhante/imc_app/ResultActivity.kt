@@ -27,7 +27,6 @@ class ResultActivity : AppCompatActivity() {
     }
 
 
-
     private fun calcularIMC (peso: String, altura: String ) {
         val peso = peso.toFloatOrNull()
         val altura = altura.toFloatOrNull()
@@ -36,8 +35,17 @@ class ResultActivity : AppCompatActivity() {
             val imc = peso / (altura * altura)
             val imcFormated = String.format("%.2f", imc)
             binding.resultTXT.text = "O seu IMC é de: ${imcFormated} Kg/m²"
+
+            if(imc.toDouble() < 18.50){
+               binding.classificationTXT.text = "Classificação: Abaixo do peso"
+            } else if (imc.toDouble() >= 18.50 && imc.toDouble() < 24.90){
+                binding.classificationTXT.text = "Classificação: Peso Normal"
+            } else if (imc.toDouble() >= 24.90 && imc.toDouble() < 29.90) {
+                binding.classificationTXT.text = "Classificação: Sobrepeso"
+            } else if (imc.toDouble() >= 29.90) {
+                binding.classificationTXT.text = "Classificação: Obesidade"
+            }
         }
     }
-
 
     }
