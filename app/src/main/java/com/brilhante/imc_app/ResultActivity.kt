@@ -1,6 +1,9 @@
 package com.brilhante.imc_app
 
+import android.R
 import android.os.Bundle
+import android.view.View
+import android.widget.Toolbar
 import androidx.appcompat.app.AppCompatActivity
 import com.brilhante.imc_app.databinding.ActivityResultBinding
 
@@ -19,6 +22,7 @@ class ResultActivity : AppCompatActivity() {
         val altura = intent.getStringExtra("EXTRA_ALTURA")
 
         calcularIMC(peso.toString(), altura.toString())
+
 
     }
 

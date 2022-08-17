@@ -54,17 +54,6 @@
         android:text="@string/imc_class_txt"
         android:textColor="@color/default_android"/>
 
-    <ImageButton
-        android:id="@+id/backBTN"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:src="@drawable/ic_baseline_arrow_back_24"
-        android:background="?attr/actionBarItemBackground"
-        app:tint="@color/default_android"
-        android:hapticFeedbackEnabled="true"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintTop_toBottomOf="parent"
-        android:contentDescription="@string/button_back" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
