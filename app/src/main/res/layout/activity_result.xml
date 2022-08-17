@@ -10,7 +10,7 @@
         android:id="@+id/resultTITLE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="120dp"
         android:text="@string/result_txt"
         android:textColor="@color/teal_200"
         android:textSize="48sp"
@@ -27,15 +27,15 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultTITLE"
-        android:text="@string/imc_value_text"/>
+        android:text="@string/imc_value_text"
+        android:textColor="@color/default_android"/>
 
     <TextView
         android:id="@+id/classificationTXT"
@@ -44,15 +44,15 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultTXT"
-        android:text="@string/imc_class_txt" />
+        android:text="@string/imc_class_txt"
+        android:textColor="@color/default_android"/>
 
     <ImageButton
         android:id="@+id/backBTN"
